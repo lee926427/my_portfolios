@@ -1,0 +1,67 @@
+#mainbody {
+    text-align: center;
+    font-family: Microsoft JhengHei UI;
+}
+
+#mainbody table {
+    display: inline-block;
+    width: 50vw;
+    height: 75vh;
+    padding: 10px;
+    border-style: solid;
+    font-size: 15px;
+    font-weight: bold;
+}
+#courseTable{
+    overflow: scroll;
+}
+#mainbody td,
+#mainbody th {
+    width: 100vw;
+    border-bottom: 2px solid #eee;
+    border-radius: 10px;
+}
+
+#mainbody .w {
+    width: 22%;
+}
+
+#mainbody .t {
+    background-color: #eee;
+    padding: 2%;
+}
+
+#mainbody .r {
+    background-color: #FF809B;
+    padding: 5%;
+}
+
+#mainbody .b {
+    background-color: #b3e0ff;
+    padding: 5%;
+}
+
+#mainbody #message {
+    width: 30vw;
+    height: 5em;
+    border-radius: 20px 0px 0px 20px;
+    border-style: none;
+    background-color: #eee;
+}
+
+
+#mainbody #memo{
+    display: inline-block;
+}
+
+#mainbody #book {
+   
+    border-style: none;
+    width: 5rem;
+    height: 5.1em;
+    border-radius: 0px 20px 20px 0;
+}
+
+#mainbody #booking {
+    margin: 20px;
+}

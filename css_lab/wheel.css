@@ -1,0 +1,17 @@
+#wheel {
+  width: 100px;
+  height: 100px;
+  background: url("/images/1.jpg");
+  position: relative;
+  border-radius: 50%;
+}
+#wheel:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border-radius: 50%;
+  background: #eee;
+}

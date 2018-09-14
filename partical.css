@@ -1,0 +1,21 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+
+#canvas {
+    position:fixed;
+    background: #eee;
+}
+.col-md-7 p {
+    font-size: 38px;
+}
+.shadow {
+    box-shadow: 0px 0px 0.8 #000;
+}
+.pan:hover {
+    box-shadow: 20px 20px 0.1 #000;
+    cursor: pointer;
+    transition: 0.3s ease;
+}

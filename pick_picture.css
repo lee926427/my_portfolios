@@ -1,0 +1,58 @@
+#show_p {
+    position: absolute;
+    height: 500px;
+    top: 50%;
+    left: 100px;
+    background: red;
+}
+#picture_content{
+    transform: rotate(6deg);
+    cursor: pointer;
+}
+
+.picture {
+    float: left;
+    background: #eee;
+    padding: 10px;
+
+    box-shadow: 3px 3px 10px #000;
+}
+
+.picture:nth-child(1) {
+    transform:translate(100px,5px) rotate(-10deg);
+    transition:transform .3s cubic-bezier(.17,1.07,.61,.97);
+    transition-delay: .1s;
+}
+.picture:nth-child(2) {
+    transform:translate(0px,0px);
+    transition:transform .3s cubic-bezier(.17,1.07,.61,.97);
+    transition-delay: .2s;
+}
+.picture:nth-child(3) {
+    transform:translate(-100px,5px) rotate(10deg);
+    transition:transform .3s cubic-bezier(.17,1.07,.61,.97);
+    transition-delay: .3s;
+}
+
+.p_content {
+    width: 8rem;
+    height: 8rem;
+    background: #000;
+}
+
+.picture:nth-child(1).pick {
+    transform:translate(-30px,-40px) rotate(-30deg);
+    transition:transform .3s cubic-bezier(.17,1.07,.61,.97);
+    transition-delay: .1s;
+}
+.picture:nth-child(2).pick {
+    transform:translate(0px,-60px);
+    transition:transform .3s cubic-bezier(.17,1.07,.61,.97);
+    transition-delay: .2s;
+}
+.picture:nth-child(3).pick {
+    transform:translate(30px,-40px) rotate(20deg);
+    transition:transform .3s cubic-bezier(.17,1.07,.61,.97);
+    transition-delay: .3s;
+  
+}

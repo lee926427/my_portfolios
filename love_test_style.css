@@ -1,0 +1,7 @@
+#mainbody {
+    text-align: center;
+}
+
+#mainbody input:focus {
+    background-color: #47BEC2;
+}

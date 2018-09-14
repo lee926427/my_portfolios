@@ -1,0 +1,57 @@
+diff --git a/index.html b/index.html
+index 0116947..97bd868 100644
+--- a/index.html
++++ b/index.html
+@@ -122,7 +122,7 @@
+             <div class="row">
+                 <div class="col-lg-4"></div>
+                 <div class="col-lg-4">
+-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
++                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="200" height="200">
+                     <h2>葉宗沛</h2>
+                     <p></p>
+                     <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+@@ -147,7 +147,7 @@
+                     </p>
+                 </div>
+                 <div class="col-md-5">
+-                    <img class="featurette-image img-fluid mx-auto shadow" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
++                    <img class="featurette-image img-fluid mx-auto shadow pan" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                 </div>
+             </div>
+ 
+@@ -160,7 +160,7 @@
+                     <p class="lead">游泳、跳島、旅遊、研究</p>
+                 </div>
+                 <div class="col-md-5 order-md-1">
+-                    <img class="featurette-image img-fluid mx-auto shadow" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
++                    <img class="featurette-image img-fluid mx-auto shadow pan" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                 </div>
+             </div>
+ 
+@@ -175,7 +175,7 @@
+                     <p class="lead"><i class="fab fa-html5 fa-2x" style="color: #1440a7"></i>、<i class="fab fa-css3-alt fa-2x" style="color: #ff9900"></i>、<i class="fab fa-js-square fa-2x" style="color: #f3c50c"></i></p>
+                 </div>
+                 <div class="col-md-5">
+-                    <img class="featurette-image img-fluid mx-auto shadow" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
++                    <img class="featurette-image img-fluid mx-auto shadow pan" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                 </div>
+             </div>
+ 
+diff --git a/partical.css b/partical.css
+index 2550591..a0d60ce 100644
+--- a/partical.css
++++ b/partical.css
+@@ -12,5 +12,10 @@ html {
+     font-size: 38px;
+ }
+ .shadow {
+-    box-shadow: 5px 5px 0.1 #000;
++    box-shadow: 0px 0px 0.8 #000;
++}
++.pan:hover {
++    box-shadow: 20px 20px 0.1 #000;
++    cursor: pointer;
++    transition: 0.3s ease;
+ }
+\ No newline at end of file

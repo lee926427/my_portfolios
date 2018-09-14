@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    font-family: Microsoft JhengHei UI;
+}
+
+table {
+    display: inline-block;
+    width: 90vw;
+    height: 75vh;
+    padding: 10px;
+    border-style: solid;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+td,
+th {
+    width: 100vw;
+    border-bottom: 2px solid #eee;
+    border-radius: 10px;
+}
+
+.w {
+    width: 22%;
+}
+
+.t {
+    background-color: #eee;
+    padding: 2%;
+}
+
+.r {
+    background-color: #FF809B;
+    padding: 5%;
+}
+
+.b {
+    background-color: #b3e0ff;
+    padding: 5%;
+}
+
+#message {
+    width: 50vw;
+    height: 5em;
+    border-radius: 20px 0px 0px 20px;
+    border-style: none;
+    background-color: #eee;
+}
+
+
+#memo{
+    display: inline-block;
+}
+
+#book {
+   
+    border-style: none;
+    width: 5rem;
+    height: 5.1em;
+    border-radius: 0px 20px 20px 0;
+}
+
+#booking {
+    margin: 20px;
+}
